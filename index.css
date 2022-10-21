@@ -1,0 +1,353 @@
+﻿
+body{
+    margin: 0;
+    width: 100%;
+}
+.container1{
+    width: 100%;
+    height: 200vh;   
+    display: flex;
+    position: relative;
+    /* align-content: flex-end; 
+    flex-wrap: wrap;*/    
+}
+.header{
+    width: 100%;
+    height: 80vh; 
+    position: absolute;
+}
+
+.image1{
+    background-image: url(Rectangle1.png);
+    width: 100%;
+    height: 80vh;
+}
+.emptyblack{
+    width: 5%;
+    height: 80vh;
+    
+    
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    height: 80vh;
+    background-color: rgba(109, 111, 111, 0.1);
+    position: absolute; top: 0; left: 5%;
+} 
+.image2{    
+    width: 100%;
+    height: 69vh;  
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    width: 65%;
+    height: 80vh;
+    position: absolute; top: 0; right: 0;
+}
+.insection1{    
+    color: white;
+}
+h1{
+    font-family: AvantGardeGothicC; 
+    /* font-family:Montserrat Alternates; */
+    margin: 0;
+}
+
+.insection2{
+    background-color: rgba(109, 111, 111, 0.2);
+    color: white;
+    width: 190px;
+    text-align: center;
+}
+.insection3{
+    /* background-color: blueviolet; */
+    color: white;
+    display: flex;
+    flex-direction: raw;
+    flex-wrap: wrap;
+    width: 450px;
+    justify-content: space-between;
+} 
+.inner1{
+    width: 50%;
+}
+.empty{
+    width: 5%;
+    height: 120vh;
+    align-self: flex-end;
+}    
+.article1{
+    width: 25%;
+    background-color: lightgray;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    
+}
+/* .h2{
+    margin: 0; 
+    font-family: Redressed;
+} */
+
+ul{
+    list-style: none;
+    padding: 0;
+}  
+
+/* ul li::before{
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 30px;
+    font-size: 38px;
+    vertical-align: -16%; 
+}   */
+
+.span1{
+    font-size: 38px;
+    display: inline-block;
+    width: 30px;
+    vertical-align: -16%;
+    height: 0;
+}  
+
+/* li {list-style-image: url("4 CV/Ellipse 2.png"); 
+}  
+/* [href$=".png"]{} */
+
+.article1_inner1{
+    width: 60%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.article1_inner2{
+    width: 60%;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.article1_inner3{
+    width: 60%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.article1_inner4{
+    width: 60%;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.empty2{
+    width: 5%;
+    height: 120vh;
+    align-self: flex-end;
+}    
+
+.article2{
+    width: 65%;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    /* justify-content: space-evenly;
+    align-items: flex-start;  */
+    border-right: 1px solid gray;
+   
+}
+.article2_inner1{
+    width: 60%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+.article2_inner2{
+    display: flex;
+    width: 60%;
+    height: 42vh;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.article2_inner2a{
+    
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    
+}
+.article2_inner2b{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+.article2_inner3{
+    width: 60%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.article2_inner4{
+    width: 48%;
+    display: flex;
+    height: 42vh;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    align-items: baseline; 
+    font-size: 16px;
+}
+
+img{
+    height: 10px;      
+}
+.p{
+    margin: 0;
+}
+
+@media screen and (max-width: 833px) {
+.article2_inner4{    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+} 
+
+@media screen and (max-width: 768px) {
+.image2{    
+    width: 100%;
+    height: 38vh;  
+}
+}
+
+@media screen and (max-width: 716px) {
+.h2{
+    font-size: large;
+}  
+.insection3{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+.inner1, .inner2, .inner3{
+    width: 200px;
+}
+.article2_inner1, .article2_inner2, .article2_inner3, .article2_inner4{
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 600px) {
+.span1{
+    font-size: 0;
+    display: block;
+    width: 30px;
+    vertical-align: -16%;
+    height: 0;
+}  
+.article1_inner3{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}        
+
+.empty, .empty2{
+    display: none;
+}
+.article1{
+    min-width: 115px;
+}
+.article1_inner1, .article1_inner2, .article1_inner3, .article1_inner4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.p3, .h3{
+    display: flex;
+    flex-direction: column;
+    align-self: center; 
+    /* !important */
+}
+}    
+
+@media screen and (max-width: 480px) {
+.image2{    
+width: 100%;
+height: 25vh;  
+}
+.footer2, .footer4{
+    display: none;
+}
+.article2_inner4{    
+    display: flex;
+    flex-direction: column;
+}
+.container1{min-width: 320px;
+}
+}
+
+@media screen and (max-width: 436px) {
+.article2_inner3{
+    display: none;
+}
+.article2_inner4{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.article2{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article2_inner2a{
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+}
+
+@media screen and (min-height: 550px) {
+    .container1{
+        min-height: 550px;
+    }
+}
+
+    
+
+
+
+
+
+
+
+
+/* .photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    height: 80vh;
+    background-color: rgba(109, 111, 111, 0.1);
+    position: absolute; top: 0; left: 5%;
+} 
+
+.image2{    
+    width: 100%;
+    height: 64vh;  
+} */
